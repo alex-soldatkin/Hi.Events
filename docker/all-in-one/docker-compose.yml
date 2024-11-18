@@ -1,8 +1,8 @@
 services:
   all-in-one:
-    build:
-      # context: ./../../
-      dockerfile: ./../../Dockerfile.all-in-one
+    build: 
+      context: ./../../
+      dockerfile: ./Dockerfile.all-in-one
     container_name: all-in-one
     ports:
       - "8123:80"
